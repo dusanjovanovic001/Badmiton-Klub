@@ -64,7 +64,7 @@
 $(document).ready(function () {
 
     const url= window.location.pathname
-    const prefiksImages = './images/'
+    const prefiksImages = './Badmiton-Klub/images/'
 
     let navItems = [
         { name: "Početna", url: "index.html#header" },
@@ -228,10 +228,10 @@ $(document).ready(function () {
             div2.classList.add("text-box");
             let slika = document.createElement("img");
             let aa = document.createElement("a");
-            aa.href = '/images/' + tereniSlike[i];
+            aa.href = '/Badmiton-Klub/images/' + tereniSlike[i];
             aa.dataset.lightbox = "gallery";
             aa.dataset.title = nasloTerena[i];
-            slika.src = '/images/' + tereniSlike[i];
+            slika.src = '/Badmiton-Klub/images/' + tereniSlike[i];
             slika.classList.add("img-thumbnail");
             slika.alt = nasloTerena[i];
             let h4Nasl = document.createElement("h4");
@@ -371,7 +371,7 @@ $(document).ready(function () {
         const pictureDiv = $('<div>');
         const aboutdiv = $('<div>');
 
-        pictureDiv.css("background-image", "url('/images/slika_autora.jpg')");
+        pictureDiv.css("background-image", "url('/Badmiton-Klub/images/slika_autora.jpg')");
         pictureDiv.addClass("autorImg");
 
         $.each(info, function (index, value) {
