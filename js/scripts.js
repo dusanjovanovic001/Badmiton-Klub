@@ -63,7 +63,7 @@
 
 $(document).ready(function () {
 
-    const path = window.location.pathname
+    const url= window.location.pathname
     const prefiksImages = './images/'
 
     let navItems = [
