@@ -250,7 +250,7 @@ $(document).ready(function () {
         }
 
         const gameArea = document.querySelector(".area-1");
-        gameArea.style.backgroundImage = "url('../images/utakmica.jpg')";
+        gameArea.style.backgroundImage = "url('/Badmiton-Klub/images/utakmica.jpg')";
 
         const textContent = ['Zasto trenirati sa nama']
         const vestine = ['Komunikacija', 'Adaptabilnost', 'Problem-solving']
