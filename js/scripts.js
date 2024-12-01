@@ -64,7 +64,7 @@
 $(document).ready(function () {
 
     const url= window.location.pathname
-    const prefiksImages = './Badmiton-Klub/images/'
+    const prefiksImages = '/Badmiton-Klub/images/'
 
     let navItems = [
         { name: "Početna", url: "index.html#header" },
