@@ -1,2 +1,1 @@
 # Badmiton-Klub
-Badmiton Klub
