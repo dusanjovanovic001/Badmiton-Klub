@@ -72,7 +72,7 @@ $(document).ready(function () {
         { name: "Tereni", url: "index.html#tereni" },
         { name: "Kontakt", url: "index.html#contact" },
         { name: "O Autoru", url: "autor.html" },
-        { name: "Dokumentacija", url: "dokumentacija.pdf" },
+        { name: "Dokumentacija", url: "dokumentacija1.pdf" },
     ]
 
     let menuIcons = ['<i class="fab fa-facebook-f fa-stack-1x bg-success"></i>', '<i class="fab fa-twitter fa-stack-1x bg-success"></i>', '<i class="fab fa-instagram fa-stack-1x bg-success"></i>', '<i class="fab fa-youtube fa-stack-1x bg-success"></i>', '<i class="fab fa-linkedin fa-stack-1x bg-success"></i>']
@@ -360,7 +360,7 @@ $(document).ready(function () {
         }
     }
 
-    $('.author').html('<p class="p-small">Copyright © <a class="no-line" href="#your-link">Dusan Jovanovic</a> <a href="dokumentacija.pdf"> Dokumentacija</a>  </p> ');
+    $('.author').html('<p class="p-small">Copyright © <a class="no-line" href="#your-link">Dusan Jovanovic</a> <a href="dokumentacija1.pdf"> Dokumentacija</a>  </p> ');
 
     if (url.includes("/Badmiton-Klub/autor.html")) {
         const div = $('#about');
