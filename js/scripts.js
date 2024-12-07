@@ -76,7 +76,7 @@ $(document).ready(function () {
     ]
 
     let menuIcons = ['<i class="fab fa-facebook-f fa-stack-1x bg-success"></i>', '<i class="fab fa-twitter fa-stack-1x bg-success"></i>', '<i class="fab fa-instagram fa-stack-1x bg-success"></i>', '<i class="fab fa-youtube fa-stack-1x bg-success"></i>', '<i class="fab fa-linkedin fa-stack-1x bg-success"></i>']
-    let menuIconsHref = ['http://www.facebook.com', 'http://www.twitter.com'];
+    let menuIconsHref = ['http://www.facebook.com', 'http://www.twitter.com','http://www.instagram.com','http://www.youtube.com','http://www.linkedin.com'];
     let menuLogo = {
         text: "Badmiton Club", href: "index.html", src: `${prefiksImages}logo1.png`
     }
